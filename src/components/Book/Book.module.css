@@ -1,0 +1,14 @@
+.dd_btn {
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 42px;
+  height: 42px;
+}
+.book_img {
+  height: 290px;
+  overflow: hidden;
+}
+.book_img img {
+  object-fit: cover;
+}

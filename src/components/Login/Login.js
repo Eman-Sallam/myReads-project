@@ -1,6 +1,6 @@
 import React from "react";
 
-const Register = () => {
+const Login = () => {
   return (
     <>
       <div className="container">
@@ -10,31 +10,12 @@ const Register = () => {
               <div className="card-body">
                 <form>
                   <div className="form-group">
-                    <label htmlFor="FirstName">First Name</label>
-                    <input
-                      type="input"
-                      className="form-control"
-                      id="FirstName"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="LastName">Last Name</label>
-                    <input
-                      type="input"
-                      className="form-control"
-                      id="LastName"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="Age">Age</label>
-                    <input type="number" className="form-control" id="Age" />
-                  </div>
-                  <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email address</label>
                     <input
                       type="email"
                       className="form-control"
                       id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
                     />
                   </div>
                   <div className="form-group">
@@ -60,4 +41,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Login;
